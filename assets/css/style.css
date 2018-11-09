@@ -140,7 +140,7 @@ form {
 }
 @media screen and (max-width: 980px){
     .nav, .container{
-        width: 95%;
+        width: 90%;
     }
     .mainbox{
         width: 660px;
@@ -152,7 +152,7 @@ form {
 }
 @media screen and (max-width: 768px){
     .nav, .container {
-        width: 95%;
+        width: 90%;
     }
     .mainbox{
         width: auto;
@@ -164,6 +164,9 @@ form {
 @media screen and (max-width: 640px){
     .logo, .nav, .navbar{
         width: 100%;
+    }
+    .nav{
+        position: static;
     }
    .navbar{
        text-align: center;
