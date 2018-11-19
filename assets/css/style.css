@@ -104,6 +104,13 @@ header{
     font-size: 20px;
     bottom: 0px;
 }
+.game a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.game a:hover{
+    color: #4aaaa5;
+}
 input, textarea{
     width: 100%;
 }
